@@ -12,7 +12,7 @@ $objDb = new DbConnection;
 $conn = $objDb->connect();
 
 
-$data = json_decode(file_get_contents('php://input'));
+// $data = json_decode(file_get_contents('php://input')); -> FormData objects are converted into multipart form data request bodies, not JSON!!
 
 $file = $_FILES['image']['name'];
 $tempPath  =  $_FILES['image']['tmp_name'];
