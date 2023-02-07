@@ -26,6 +26,7 @@ yarn-error.log*
 /events/DbConnection.php
 /images/db.config.php
 /images/DbConnection.php
+/speeddating/DbConnection.php
 DbConnection.php
 helper.php
 sql_queries.txt
