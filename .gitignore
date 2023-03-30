@@ -30,5 +30,6 @@ yarn-error.log*
 DbConnection.php
 helper.php
 sql_queries.txt
+index.php
 
 
