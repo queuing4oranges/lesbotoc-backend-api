@@ -5,9 +5,13 @@
 These API scripts are designed to allow users to manage events, contacts, images and signupforms through a set of RESTful APIs.
 The script provides the ability to create, read, update, and delete events and contacts, to add and delete images and to save event signup information in a database.
 
+  <br>
+
 ## Tech Stack
 
 This API script is built using PHP and uses MySQL as the database.
+
+  <br>
 
 ## How to run the project
 
@@ -27,7 +31,8 @@ To run this project, you will need to have PHP and MySQL installed on your syste
    `php -S localhost:8000`
 
 6. You should now be able to access the APIs at:
-   `http://localhost:8000/api/{endpoint}`
+   `http://localhost:8000/api/{endpoint}`  
+   <br>
 
 ## API Endpoints
 
@@ -50,7 +55,7 @@ Here are the available endpoints for this API script:
            GET   /api/events/read
        </td>
        <td>
-           Retrieve a list of all events
+            Retrieve a list of all events
        </td>
     </tr>
         <tr>
